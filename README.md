@@ -7,7 +7,7 @@ The test suite covers **words, sentences, long paragraphs, numbers, symbols, and
 
 ---
 
-## 🚀 Tech Stack
+##Tech Stack
 - Playwright
 - Node.js
 - TypeScript
@@ -15,7 +15,7 @@ The test suite covers **words, sentences, long paragraphs, numbers, symbols, and
 
 ---
 
-## 📁 Project Structure
+##Project Structure
 playwright-tamil-transliteration/
 ├── tamil-transliteration.spec.ts
 ├── playwright.config.ts
@@ -25,7 +25,7 @@ playwright-tamil-transliteration/
 
 ---
 
-## 🧪 Test Coverage
+##Test Coverage
 The test cases validate:
 - Simple words (e.g., `naan → நான்`)
 - Conversational sentences
@@ -38,17 +38,36 @@ All tests are **data-driven** and easy to extend.
 
 ---
 
-## 🛠 Prerequisites
+##Prerequisites
 - Node.js (v16 or later)
 - npm
 - Git
 
 ---
 
-## 📦 Installation
+##Installation
 Clone the repository and install dependencies:
 
-```bash
-git clone https://github.com/<your-username>/playwright-tamil-transliteration.git
-cd playwright-tamil-transliteration
+```In command prompt
+git clone https://github.com/PrathieshS/tanglishtranslater
+cd tanglishtranslater
 npm install
+
+```
+## Install Playwright browsers:
+npx playwright install
+
+## running tesst
+npx playwright test
+
+## Running Test in headed mode
+npx playwright test --headed
+
+## View HTML report:
+npx playwright show-report
+
+## Configuration
+
+## Playwright configuration is available in:
+playwright.config.ts
+
